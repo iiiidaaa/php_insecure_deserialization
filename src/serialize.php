@@ -2,10 +2,10 @@
 <html lang = "ja">
 <head>
 <meta charset = "UFT-8">
-<title>フォームからデータを受け取る</title>
+<title>データ送信</title>
 </head>
 <body>
-<h1>フォームデータの送信</h1>
+<h1>シリアライズされたデータの送信</h1>
 <form action = "deserialize.php" method = "get">
 <input type = "hidden" name ="line" value=<? echo base64_encode(serialize(['cat','file/test.txt'])) ?> /><br/>
 <input type = "submit" value ="送信" />

@@ -6,7 +6,7 @@
 </head>
 <body>
 <a href="serialize.php">戻る</a><br>
-<h1>フォームデータの送信</h1>
+<h1>シリアライズデータの確認</h1>
 <?
 if ($_GET["command"]){
     $command = $_GET["command"];
